@@ -1,3 +1,7 @@
+-- disable netrw
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 vim.opt.guicursor = ''
 
 vim.opt.number = true
@@ -16,7 +20,7 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 6
 vim.opt.signcolumn = 'yes'
 vim.opt.isfname:append('@-@')
 
@@ -27,7 +31,7 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = '80'
 
-vim.opt.mouse = 'a'
+vim.opt.mouse = ''
 
 vim.opt.clipboard = 'unnamedplus'
 
