@@ -73,14 +73,27 @@ require("lazy").setup({
 
     {'tpope/vim-fugitive'},
 
-    {
-        -- easily install lsp servers
-        'williamboman/mason.nvim',
-        -- bridge gap between mason and lspconfig
-        'williamboman/mason-lspconfig.nvim',
-        -- lsp configuration setup
-        'neovim/nvim-lspconfig',
-    },
+    {'neovim/nvim-lspconfig'},
+
+    {'williamboman/mason.nvim'},
+
+    {'williamboman/mason-lspconfig.nvim'},
+
+    {'hrsh7th/nvim-cmp'},
+
+    {'hrsh7th/cmp-buffer'},
+
+    {'hrsh7th/cmp-path'},
+
+    {'saadparwaiz1/cmp_luasnip'},
+
+    {'hrsh7th/cmp-nvim-lsp'},
+
+    {'hrsh7th/cmp-nvim-lua'},
+    
+    {'L3MON4D3/LuaSnip'},
+
+    {'rafamadriz/friendly-snippets'},
 
     {
         'j-hui/fidget.nvim',
@@ -168,14 +181,12 @@ require("lazy").setup({
             "TmuxNavigateDown",
             "TmuxNavigateUp",
             "TmuxNavigateRight",
-            "TmuxNavigatePrevious",
         },
         keys = {
             { "<c-h>", "<cmd><C-U>TmuxNavigateLeft<cr>" },
             { "<c-j>", "<cmd><C-U>TmuxNavigateDown<cr>" },
             { "<c-k>", "<cmd><C-U>TmuxNavigateUp<cr>" },
             { "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>" },
-            { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
         },
     },
 

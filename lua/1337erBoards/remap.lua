@@ -63,6 +63,3 @@ vim.keymap.set('n', '<leader>nw', function() harpoon:list():select(2) end, { des
 vim.keymap.set('n', '<leader>ne', function() harpoon:list():select(3) end, { desc = 'Quick 3' })
 vim.keymap.set('n', '<leader>nr', function() harpoon:list():select(4) end, { desc = 'Quick 4' })
 
--------------------------------------------------------------------------------
--- which-key registration
--------------------------------------------------------------------------------
